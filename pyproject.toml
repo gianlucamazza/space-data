@@ -1,0 +1,9 @@
+[project]
+name = "space-data"
+version = "0.1.0"
+description = "Local catalog of public orbits, open satellite signals, and space-archive metadata."
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+include = ["spacedata*"]

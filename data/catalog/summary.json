@@ -1,0 +1,952 @@
+{
+  "retrieved_at": "2026-10-12T12:24:02Z",
+  "orbits": 4588,
+  "orbits_by_group": {
+    "oneweb": 651,
+    "satnogs": 629,
+    "analyst": 595,
+    "geo": 566,
+    "kuiper": 391,
+    "qianfan": 256,
+    "last-30-days": 225,
+    "hulianwang": 224,
+    "gnss": 172,
+    "resource": 167,
+    "visual": 155,
+    "sar": 125,
+    "planet": 121,
+    "amateur": 96,
+    "cubesat": 83,
+    "sarsat": 83,
+    "iridium-NEXT": 80,
+    "satcat": 76,
+    "weather": 73,
+    "spire": 72,
+    "ses": 71,
+    "intelsat": 55,
+    "beidou": 54,
+    "science": 46,
+    "engineering": 37,
+    "globalstar": 36,
+    "galileo": 32,
+    "gps-ops": 32,
+    "other-comm": 31,
+    "argos": 30,
+    "eutelsat": 29,
+    "glo-ops": 29,
+    "tdrss": 26,
+    "military": 24,
+    "stations": 22,
+    "sbas": 21,
+    "x-comm": 20,
+    "telesat": 17,
+    "orbcomm": 14,
+    "geodetic": 10,
+    "radar": 10,
+    "dmc": 9,
+    "education": 6,
+    "goes": 6
+  },
+  "signals_alive": 3006,
+  "signals_by_mode": {
+    "FM": 1131,
+    "BPSK": 408,
+    "FSK": 203,
+    "CW": 191,
+    "GMSK": 167,
+    "GFSK": 152,
+    "LoRa": 107,
+    "UNKNOWN": 95,
+    "FSK AX.100 Mode 5": 90,
+    "GMSK USP": 85,
+    "AFSK": 68,
+    "QPSK": 50,
+    "SSTV": 21,
+    "USB": 21,
+    "unknown": 18,
+    "BPSK PMT-A3": 17,
+    "OQPSK": 17,
+    "DVB-S2": 16,
+    "FMN": 15,
+    "DOKA": 14,
+    "LRPT": 13,
+    "AHRPT": 11,
+    "HRPT": 11,
+    "MSK AX.100 Mode 5": 10,
+    "FSK AX.25 G3RUH": 9,
+    "PSK": 9,
+    "64-QAM": 6,
+    "AFSK TUBiX10": 5,
+    "CERTO": 4,
+    "SIDLOC": 4,
+    "DSB": 3,
+    "MSK": 3,
+    "WSJT": 3,
+    "AM": 2,
+    "DBPSK": 2,
+    "DQPSK": 2,
+    "DUV": 2,
+    "FT8": 2,
+    "GENESIS FSK": 2,
+    "OFDM": 2,
+    "PSK31": 2,
+    "SQPSK": 2,
+    "SSDV": 2,
+    "4FSK": 1,
+    "DATV": 1,
+    "DPSK": 1,
+    "FFSK": 1,
+    "FSK QUBIK": 1,
+    "GFSK Pkst": 1,
+    "LSB": 1,
+    "PPM": 1,
+    "QPSK31": 1
+  },
+  "observations": 1000,
+  "observation_earliest": "2026-10-11T18:09:52Z",
+  "observation_latest": "2026-10-12T11:51:31Z",
+  "stac_collections": 427,
+  "pds_bundles": 926,
+  "sources": [
+    {
+      "id": "celestrak-gp-active",
+      "status": "absent",
+      "records": null,
+      "bytes": null,
+      "path": null,
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-last-30-days",
+      "status": "cached",
+      "records": 225,
+      "bytes": 95270,
+      "path": "data/raw/celestrak/gp-last-30-days.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-stations",
+      "status": "cached",
+      "records": 22,
+      "bytes": 9293,
+      "path": "data/raw/celestrak/gp-stations.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-visual",
+      "status": "cached",
+      "records": 155,
+      "bytes": 64804,
+      "path": "data/raw/celestrak/gp-visual.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-analyst",
+      "status": "cached",
+      "records": 595,
+      "bytes": 241444,
+      "path": "data/raw/celestrak/gp-analyst.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-weather",
+      "status": "cached",
+      "records": 73,
+      "bytes": 30279,
+      "path": "data/raw/celestrak/gp-weather.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-goes",
+      "status": "cached",
+      "records": 6,
+      "bytes": 2410,
+      "path": "data/raw/celestrak/gp-goes.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-resource",
+      "status": "cached",
+      "records": 167,
+      "bytes": 69833,
+      "path": "data/raw/celestrak/gp-resource.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-sar",
+      "status": "cached",
+      "records": 125,
+      "bytes": 52464,
+      "path": "data/raw/celestrak/gp-sar.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-sarsat",
+      "status": "cached",
+      "records": 83,
+      "bytes": 33978,
+      "path": "data/raw/celestrak/gp-sarsat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-dmc",
+      "status": "cached",
+      "records": 9,
+      "bytes": 3774,
+      "path": "data/raw/celestrak/gp-dmc.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-tdrss",
+      "status": "cached",
+      "records": 26,
+      "bytes": 10602,
+      "path": "data/raw/celestrak/gp-tdrss.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-argos",
+      "status": "cached",
+      "records": 30,
+      "bytes": 12515,
+      "path": "data/raw/celestrak/gp-argos.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-planet",
+      "status": "cached",
+      "records": 121,
+      "bytes": 50867,
+      "path": "data/raw/celestrak/gp-planet.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-spire",
+      "status": "cached",
+      "records": 72,
+      "bytes": 30685,
+      "path": "data/raw/celestrak/gp-spire.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-geo",
+      "status": "cached",
+      "records": 566,
+      "bytes": 228922,
+      "path": "data/raw/celestrak/gp-geo.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-intelsat",
+      "status": "cached",
+      "records": 55,
+      "bytes": 22467,
+      "path": "data/raw/celestrak/gp-intelsat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-ses",
+      "status": "cached",
+      "records": 71,
+      "bytes": 28605,
+      "path": "data/raw/celestrak/gp-ses.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-eutelsat",
+      "status": "cached",
+      "records": 29,
+      "bytes": 11824,
+      "path": "data/raw/celestrak/gp-eutelsat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-telesat",
+      "status": "cached",
+      "records": 17,
+      "bytes": 6872,
+      "path": "data/raw/celestrak/gp-telesat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-starlink",
+      "status": "absent",
+      "records": null,
+      "bytes": null,
+      "path": null,
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-oneweb",
+      "status": "cached",
+      "records": 651,
+      "bytes": 273064,
+      "path": "data/raw/celestrak/gp-oneweb.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-qianfan",
+      "status": "cached",
+      "records": 256,
+      "bytes": 106845,
+      "path": "data/raw/celestrak/gp-qianfan.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-hulianwang",
+      "status": "cached",
+      "records": 224,
+      "bytes": 95247,
+      "path": "data/raw/celestrak/gp-hulianwang.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-kuiper",
+      "status": "cached",
+      "records": 391,
+      "bytes": 163683,
+      "path": "data/raw/celestrak/gp-kuiper.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-iridium-NEXT",
+      "status": "cached",
+      "records": 80,
+      "bytes": 33399,
+      "path": "data/raw/celestrak/gp-iridium-NEXT.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-orbcomm",
+      "status": "cached",
+      "records": 14,
+      "bytes": 5896,
+      "path": "data/raw/celestrak/gp-orbcomm.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-globalstar",
+      "status": "cached",
+      "records": 36,
+      "bytes": 15162,
+      "path": "data/raw/celestrak/gp-globalstar.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-amateur",
+      "status": "cached",
+      "records": 96,
+      "bytes": 40583,
+      "path": "data/raw/celestrak/gp-amateur.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-satnogs",
+      "status": "cached",
+      "records": 629,
+      "bytes": 264173,
+      "path": "data/raw/celestrak/gp-satnogs.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-x-comm",
+      "status": "cached",
+      "records": 20,
+      "bytes": 8400,
+      "path": "data/raw/celestrak/gp-x-comm.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-other-comm",
+      "status": "cached",
+      "records": 31,
+      "bytes": 12594,
+      "path": "data/raw/celestrak/gp-other-comm.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-gnss",
+      "status": "cached",
+      "records": 172,
+      "bytes": 71057,
+      "path": "data/raw/celestrak/gp-gnss.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-gps-ops",
+      "status": "cached",
+      "records": 32,
+      "bytes": 13271,
+      "path": "data/raw/celestrak/gp-gps-ops.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-glo-ops",
+      "status": "cached",
+      "records": 29,
+      "bytes": 11941,
+      "path": "data/raw/celestrak/gp-glo-ops.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-galileo",
+      "status": "cached",
+      "records": 32,
+      "bytes": 13263,
+      "path": "data/raw/celestrak/gp-galileo.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-beidou",
+      "status": "cached",
+      "records": 54,
+      "bytes": 22277,
+      "path": "data/raw/celestrak/gp-beidou.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-sbas",
+      "status": "cached",
+      "records": 21,
+      "bytes": 8745,
+      "path": "data/raw/celestrak/gp-sbas.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-science",
+      "status": "cached",
+      "records": 46,
+      "bytes": 19094,
+      "path": "data/raw/celestrak/gp-science.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-geodetic",
+      "status": "cached",
+      "records": 10,
+      "bytes": 4119,
+      "path": "data/raw/celestrak/gp-geodetic.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-engineering",
+      "status": "cached",
+      "records": 37,
+      "bytes": 15497,
+      "path": "data/raw/celestrak/gp-engineering.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-education",
+      "status": "cached",
+      "records": 6,
+      "bytes": 2514,
+      "path": "data/raw/celestrak/gp-education.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-military",
+      "status": "cached",
+      "records": 24,
+      "bytes": 10190,
+      "path": "data/raw/celestrak/gp-military.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-radar",
+      "status": "cached",
+      "records": 10,
+      "bytes": 4230,
+      "path": "data/raw/celestrak/gp-radar.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-gp-cubesat",
+      "status": "cached",
+      "records": 83,
+      "bytes": 35012,
+      "path": "data/raw/celestrak/gp-cubesat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-last-30-days",
+      "status": "cached",
+      "records": 268,
+      "bytes": 89279,
+      "path": "data/raw/celestrak/satcat-last-30-days.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-stations",
+      "status": "cached",
+      "records": 22,
+      "bytes": 7308,
+      "path": "data/raw/celestrak/satcat-stations.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-visual",
+      "status": "cached",
+      "records": 157,
+      "bytes": 51721,
+      "path": "data/raw/celestrak/satcat-visual.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-weather",
+      "status": "cached",
+      "records": 74,
+      "bytes": 24543,
+      "path": "data/raw/celestrak/satcat-weather.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-goes",
+      "status": "cached",
+      "records": 6,
+      "bytes": 2008,
+      "path": "data/raw/celestrak/satcat-goes.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-resource",
+      "status": "cached",
+      "records": 168,
+      "bytes": 55397,
+      "path": "data/raw/celestrak/satcat-resource.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-sar",
+      "status": "cached",
+      "records": 125,
+      "bytes": 41271,
+      "path": "data/raw/celestrak/satcat-sar.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-sarsat",
+      "status": "cached",
+      "records": 84,
+      "bytes": 28501,
+      "path": "data/raw/celestrak/satcat-sarsat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-dmc",
+      "status": "cached",
+      "records": 9,
+      "bytes": 2975,
+      "path": "data/raw/celestrak/satcat-dmc.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-tdrss",
+      "status": "cached",
+      "records": 26,
+      "bytes": 8576,
+      "path": "data/raw/celestrak/satcat-tdrss.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-argos",
+      "status": "cached",
+      "records": 30,
+      "bytes": 9792,
+      "path": "data/raw/celestrak/satcat-argos.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-planet",
+      "status": "cached",
+      "records": 121,
+      "bytes": 39838,
+      "path": "data/raw/celestrak/satcat-planet.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-spire",
+      "status": "cached",
+      "records": 72,
+      "bytes": 24122,
+      "path": "data/raw/celestrak/satcat-spire.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-geo",
+      "status": "cached",
+      "records": 569,
+      "bytes": 191584,
+      "path": "data/raw/celestrak/satcat-geo.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-intelsat",
+      "status": "cached",
+      "records": 55,
+      "bytes": 18809,
+      "path": "data/raw/celestrak/satcat-intelsat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-ses",
+      "status": "cached",
+      "records": 72,
+      "bytes": 23939,
+      "path": "data/raw/celestrak/satcat-ses.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-eutelsat",
+      "status": "cached",
+      "records": 29,
+      "bytes": 9899,
+      "path": "data/raw/celestrak/satcat-eutelsat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-telesat",
+      "status": "cached",
+      "records": 17,
+      "bytes": 5682,
+      "path": "data/raw/celestrak/satcat-telesat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-starlink",
+      "status": "absent",
+      "records": null,
+      "bytes": null,
+      "path": null,
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-oneweb",
+      "status": "cached",
+      "records": 651,
+      "bytes": 216112,
+      "path": "data/raw/celestrak/satcat-oneweb.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-qianfan",
+      "status": "cached",
+      "records": 256,
+      "bytes": 84781,
+      "path": "data/raw/celestrak/satcat-qianfan.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-hulianwang",
+      "status": "cached",
+      "records": 226,
+      "bytes": 76482,
+      "path": "data/raw/celestrak/satcat-hulianwang.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-kuiper",
+      "status": "cached",
+      "records": 391,
+      "bytes": 128362,
+      "path": "data/raw/celestrak/satcat-kuiper.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-iridium-NEXT",
+      "status": "cached",
+      "records": 80,
+      "bytes": 26304,
+      "path": "data/raw/celestrak/satcat-iridium-NEXT.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-orbcomm",
+      "status": "cached",
+      "records": 14,
+      "bytes": 4633,
+      "path": "data/raw/celestrak/satcat-orbcomm.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-globalstar",
+      "status": "cached",
+      "records": 36,
+      "bytes": 12132,
+      "path": "data/raw/celestrak/satcat-globalstar.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-amateur",
+      "status": "cached",
+      "records": 100,
+      "bytes": 33334,
+      "path": "data/raw/celestrak/satcat-amateur.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-satnogs",
+      "status": "cached",
+      "records": 648,
+      "bytes": 214318,
+      "path": "data/raw/celestrak/satcat-satnogs.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-x-comm",
+      "status": "cached",
+      "records": 20,
+      "bytes": 6640,
+      "path": "data/raw/celestrak/satcat-x-comm.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-other-comm",
+      "status": "cached",
+      "records": 31,
+      "bytes": 10281,
+      "path": "data/raw/celestrak/satcat-other-comm.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-gnss",
+      "status": "cached",
+      "records": 173,
+      "bytes": 59471,
+      "path": "data/raw/celestrak/satcat-gnss.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-gps-ops",
+      "status": "cached",
+      "records": 32,
+      "bytes": 10997,
+      "path": "data/raw/celestrak/satcat-gps-ops.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-glo-ops",
+      "status": "cached",
+      "records": 29,
+      "bytes": 9921,
+      "path": "data/raw/celestrak/satcat-glo-ops.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-galileo",
+      "status": "cached",
+      "records": 33,
+      "bytes": 11400,
+      "path": "data/raw/celestrak/satcat-galileo.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-beidou",
+      "status": "cached",
+      "records": 54,
+      "bytes": 18537,
+      "path": "data/raw/celestrak/satcat-beidou.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-sbas",
+      "status": "cached",
+      "records": 21,
+      "bytes": 7317,
+      "path": "data/raw/celestrak/satcat-sbas.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-science",
+      "status": "cached",
+      "records": 47,
+      "bytes": 15497,
+      "path": "data/raw/celestrak/satcat-science.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-geodetic",
+      "status": "cached",
+      "records": 10,
+      "bytes": 3333,
+      "path": "data/raw/celestrak/satcat-geodetic.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-engineering",
+      "status": "cached",
+      "records": 37,
+      "bytes": 12131,
+      "path": "data/raw/celestrak/satcat-engineering.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-education",
+      "status": "cached",
+      "records": 6,
+      "bytes": 1987,
+      "path": "data/raw/celestrak/satcat-education.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-military",
+      "status": "cached",
+      "records": 27,
+      "bytes": 9040,
+      "path": "data/raw/celestrak/satcat-military.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-radar",
+      "status": "cached",
+      "records": 10,
+      "bytes": 3357,
+      "path": "data/raw/celestrak/satcat-radar.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "celestrak-satcat-cubesat",
+      "status": "cached",
+      "records": 87,
+      "bytes": 28831,
+      "path": "data/raw/celestrak/satcat-cubesat.json",
+      "license": "celestrak-attribution"
+    },
+    {
+      "id": "satnogs-satellites",
+      "status": "cached",
+      "records": 2832,
+      "bytes": 1552159,
+      "path": "data/raw/satnogs/satellites.json",
+      "license": "cc-by-sa-4.0"
+    },
+    {
+      "id": "satnogs-transmitters-alive",
+      "status": "cached",
+      "records": 3006,
+      "bytes": 2377423,
+      "path": "data/raw/satnogs/transmitters-alive.json",
+      "license": "cc-by-sa-4.0"
+    },
+    {
+      "id": "satnogs-modes",
+      "status": "cached",
+      "records": 61,
+      "bytes": 1583,
+      "path": "data/raw/satnogs/modes.json",
+      "license": "cc-by-sa-4.0"
+    },
+    {
+      "id": "satnogs-tle",
+      "status": "cached",
+      "records": 1730,
+      "bytes": 535798,
+      "path": "data/raw/satnogs/tle.json",
+      "license": "cc-by-sa-4.0"
+    },
+    {
+      "id": "swpc-kp-index",
+      "status": "cached",
+      "records": 60,
+      "bytes": 4649,
+      "path": "data/raw/swpc/kp-index.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-kp-forecast",
+      "status": "cached",
+      "records": 81,
+      "bytes": 6907,
+      "path": "data/raw/swpc/kp-forecast.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-goes-xray-6h",
+      "status": "cached",
+      "records": 716,
+      "bytes": 160912,
+      "path": "data/raw/swpc/goes-xray-6h.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-f107",
+      "status": "cached",
+      "records": 123,
+      "bytes": 22838,
+      "path": "data/raw/swpc/f107.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-rtsw-mag-1m",
+      "status": "cached",
+      "records": 3766,
+      "bytes": 1582236,
+      "path": "data/raw/swpc/rtsw-mag-1m.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-rtsw-wind-1m",
+      "status": "cached",
+      "records": 3699,
+      "bytes": 2735027,
+      "path": "data/raw/swpc/rtsw-wind-1m.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-propagated-solar-wind-1h",
+      "status": "cached",
+      "records": 56,
+      "bytes": 6561,
+      "path": "data/raw/swpc/propagated-solar-wind-1h.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-summary-solar-wind-speed",
+      "status": "cached",
+      "records": 1,
+      "bytes": 59,
+      "path": "data/raw/swpc/summary-solar-wind-speed.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-summary-10cm-flux",
+      "status": "cached",
+      "records": 1,
+      "bytes": 47,
+      "path": "data/raw/swpc/summary-10cm-flux.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "swpc-noaa-scales",
+      "status": "cached",
+      "records": 1,
+      "bytes": 1103,
+      "path": "data/raw/swpc/noaa-scales.json",
+      "license": "us-gov-public-domain"
+    },
+    {
+      "id": "satnogs-observations-good",
+      "status": "cached",
+      "records": 1000,
+      "bytes": 962367,
+      "path": "data/catalog/observations.json",
+      "license": "cc-by-sa-4.0"
+    },
+    {
+      "id": "copernicus-stac-collections",
+      "status": "cached",
+      "records": 427,
+      "bytes": 314852,
+      "path": "data/catalog/stac-collections.json",
+      "license": "copernicus-catalog-metadata"
+    },
+    {
+      "id": "nasa-pds-bundles",
+      "status": "cached",
+      "records": 926,
+      "bytes": 352386,
+      "path": "data/catalog/pds-bundles.json",
+      "license": "nasa-pds"
+    }
+  ]
+}
